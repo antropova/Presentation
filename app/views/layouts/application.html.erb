@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Presentation</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-  <%= analytics_init if Rails.env.production? %>
-</head>
-<body>
+  <head>
+    <title>Presentation</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+    <%= analytics_init if Rails.env.production? %>
+  </head>
+  <body>
 
-<% if notice %>
-  <p class="alert alert-success"><%= notice %></p>
-<% end %>
-<%= yield %>
+    <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+    <% end %>
 
-</body>
+    <%= render 'layouts/header' %>
+
+    <%= yield %>
+
+  </body>
 </html>

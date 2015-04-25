@@ -21,8 +21,12 @@
 
 en:
   welcome: "Welcome"
-  hello: "Hello %{user}"
+  hello: "Hello"
   sign_up: "Sign up"
   sign_in: "Sign in"
   sign_out: "Sign out"
   profile: "Profile"
+  brand: "Presentation App"
+  russian: "Russian"
+  english: "English"
+  language: "Language"

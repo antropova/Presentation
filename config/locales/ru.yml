@@ -1,7 +1,11 @@
 ru:
   welcome: "Добро пожаловать"
-  hello: "Привет %{user}"
+  hello: "Привет"
   sign_up: "Регистрация"
   sign_in: "Войти"
   sign_out: "Выйти"
   profile: "Профиль"
+  brand: "Наше классное приложение"
+  russian: "Русский"
+  english: "Английский"
+  language: "Язык"
