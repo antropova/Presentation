@@ -1,0 +1,10 @@
+<h1 class="text-center"><%= t :welcome %>!</h1>
+<h3 class="text-center"><%= t :hello, user: "Flatiron" %>!</h3>
+
+<% if user_signed_in? %>
+  <%= link_to t(:sign_out), destroy_user_session_path, method: 'delete' %>
+  <%= link_to t(:profile), edit_user_registration_path %>
+<% else %>
+  <%= link_to t(:sign_up), new_user_registration_path %>
+  <%= link_to t(:sign_in), new_user_session_path %>
+<% end %>

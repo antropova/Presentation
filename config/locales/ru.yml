@@ -1,0 +1,7 @@
+ru:
+  welcome: "Добро пожаловать"
+  hello: "Привет %{user}"
+  sign_up: "Регистрация"
+  sign_in: "Войти"
+  sign_out: "Выйти"
+  profile: "Профиль"
