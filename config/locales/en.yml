@@ -21,6 +21,8 @@
 
 en:
   welcome: "Welcome"
+  hello_world: 'Hello World'
+  demo: 'DEMO'
   hello: "Hello"
   sign_up: "Sign up"
   sign_in: "Sign in"

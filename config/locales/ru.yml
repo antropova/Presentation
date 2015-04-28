@@ -1,5 +1,7 @@
 ru:
   welcome: "Добро пожаловать"
+  hello_world: 'Привет Мир'
+  demo: 'Демо'
   hello: "Привет"
   sign_up: "Регистрация"
   sign_in: "Войти"
