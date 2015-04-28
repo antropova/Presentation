@@ -34,3 +34,17 @@ body {
 .theme-showcase > p > .btn {
   margin: 5px 0;
 }
+
+.btn{
+
+  background: transparent;
+  color: #F2F2F2;
+
+  /* CSS Transition */
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
